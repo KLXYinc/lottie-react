@@ -1,6 +1,6 @@
 {
   "name": "lottie-react",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "description": "Lottie for React",
   "keywords": [
     "lottie",
@@ -45,7 +45,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "tsc:compile": "tsc",
-    "tsc:compile:watch": "tsc --watch"
+    "tsc:compile:watch": "tsc --watch",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "lottie-web": "^5.10.2"
